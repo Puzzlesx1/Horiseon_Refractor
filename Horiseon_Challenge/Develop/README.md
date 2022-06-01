@@ -1,4 +1,4 @@
-# Horiseon Challenge 1
+# Horiseon Refractor
 
 This challenge was used to help me better understand HTML and CSS. I was expected to update the current code to meet accesbility standards.
 
