@@ -1,0 +1,147 @@
+/*Root Variables Start*/
+:root{
+--FontFamilyOne: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+'Lucida Sans', Arial, sans-serif;
+--FontFamilyTwo: 'Gill Sans', 'Gill Sans MT', Calibri, 
+'Trebuchet MS', sans-serif;
+
+}
+/*Root Variables end*/
+
+/*Universal Styling*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #d9dcd6;
+}
+a {
+    color: var(--White);
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+/*Universal Styling End*/
+
+
+/*Header Styling Starts*/
+.header {
+    padding: 20px;
+    font-family: var(--FontFamilyOne);
+    background-color: #2a607c;
+    color: white;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 4vw;
+}
+.header h1 .seo {
+    color: #d9dcd6;
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--FontFamilyTwo);
+    font-size: 2vw;
+}
+.header nav ul {
+    list-style-type: none;
+}
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*Header Styling ends*/
+
+/*Hero Styling starts*/
+.hero {
+    height: 800px;
+    max-width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*Hero Styling ends*/
+
+/*Main Content Styling Starts*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    font-family: var(--FontFamilyTwo);
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.main-content p {
+    font-size: clamp(1rem, 1.5vw, 2rem)
+}
+.main-content img {
+    max-height: 200px;
+    max-width: 300px;
+    width: 35%;
+    min-height: 100px;
+    min-width: 200px;
+}
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Main Content Styling Ends*/
+
+
+/*Benefits Styling Starts*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 15%;
+    height: 100%;
+    font-family: var(--FontFamilyTwo);
+    background-color: #2589bd;
+}
+.benefit-type {
+    margin-bottom: 32px;
+    color: white;
+}
+.benefit-type h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-type img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Benefits Styling Ends*/
+
+/*Footer Styling Starts*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: var(--FontFamilyOne);
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+/*Footer Styling Ends*/
